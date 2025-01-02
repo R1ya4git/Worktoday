@@ -6,7 +6,6 @@ import 'package:work_today/model/request.dart';
 import 'package:work_today/screens/ownProfile.dart';
 import 'package:work_today/services/firebase_user.dart';
 
-import 'home_screen.dart';
 
 final _firestore = FirebaseFirestore.instance;
 

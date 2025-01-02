@@ -7,7 +7,6 @@ import 'package:work_today/model/request.dart';
 import 'package:work_today/screens/category_screen.dart';
 import 'package:work_today/services/firebase_user.dart';
 
-import 'home_screen.dart';
 import 'ownProfile.dart';
 
 final _firestore = FirebaseFirestore.instance;

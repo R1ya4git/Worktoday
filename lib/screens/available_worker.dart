@@ -30,8 +30,6 @@ class AvailableWorker extends StatelessWidget {
       // if(!availableUserID.contains(docID))
       //   continue;
       List<dynamic> categories = data['categories'];
-      if(categories==null)
-        continue;
       if(!categories.contains(category))
         continue;
       String username = data['name'];
